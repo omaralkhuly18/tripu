@@ -8,6 +8,15 @@
 .slider_btn {
   display: inline-block;
 }
+
+.intro-slider .home-slider-prev {
+  right: 93%;
+}
+
+.intro-slider .home-slider-next {
+  left: 93%;
+}
+
 .end {
   float: inline-end;
 }
@@ -55,3 +64,45 @@
 .footer-logo img {
   max-width: 30% !important;
 }
+/* authentication_ar start */
+.tab{
+  display: flex;
+}
+
+.telphone{
+  text-align: right;
+}
+
+/* authentication_ar end */
+
+/* Legal_ar start */
+.directionstyle{
+  float: left;
+  width: 100%;
+  margin: 3% 0;
+}
+/* Legal_ar end */
+
+/* profile_caption_ar start */
+.sidebar{
+  float: right;
+  height: auto !important;
+  margin: 0 !important;
+}
+
+.tabcontent{
+  width: 100% !important;
+  /* margin-left: -5% !important; */
+  float: left !important;
+}
+
+div.content-tip_details{
+    margin-left: -3% !important;
+    margin-top: 1% !important;
+     margin-bottom: 0 !important;
+}
+
+.Accounttel{
+  text-align: right;
+}
+/* profile_caption_ar end */

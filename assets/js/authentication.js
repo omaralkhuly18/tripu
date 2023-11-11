@@ -21,7 +21,10 @@ function openCity(evt, cityName) {
 
 function menuToggle() {
   const toggleMenu = document.querySelector("#Client");
-  toggleMenu.classList.toggle("active");
+  if(toggleMenu != null){
+    
+    toggleMenu.classList.toggle("active");
+  }
 }
 
 

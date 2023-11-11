@@ -11,9 +11,31 @@
 
 .designcolorsmall {
   color: #c1bdbdde !important;
+  transition: 1.5s;
+}
+
+.designcolortab {
+  color: black !important;
+  font-size: 18px !important;
+}
+
+.designcolorhover:hover {
+  color: #1292ee !important;
 }
 
 /* offer */
+
+.buttontopageorder {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
+}
+
+.buttontopageorder button {
+  border: none;
+  outline: none;
+}
+
 .table {
   box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
@@ -23,6 +45,7 @@
   background-color: #fff;
   transition: all 0.3s ease 0s;
 }
+
 .name {
   background: linear-gradient(to bottom right, #fa6fe6, #ffef65);
   padding: 40px 20px 170px;
@@ -35,6 +58,7 @@
   overflow: hidden;
   border-radius: 25px;
 }
+
 .name::before {
   content: "";
   position: absolute;
@@ -46,6 +70,7 @@
   border-radius: 100px;
   transform: rotate(-85deg);
 }
+
 .name::after {
   position: absolute;
   top: 150px;
@@ -59,6 +84,7 @@
   height: 200px;
   transform: rotate(-50deg);
 }
+
 .price_card {
   padding: 30px 0;
   display: inline-block;
@@ -77,16 +103,19 @@
   transition: all 0.3s ease 0s;
   box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
 }
+
 .table:hover .price_card {
   color: #fff;
   background: linear-gradient(to bottom right, #fa6fe6, #ffef65);
 }
+
 .monthly {
   display: block;
   font-size: 16px;
   font-weight: 400;
   line-height: 0;
 }
+
 .content_card {
   list-style: none;
   padding: 0;
@@ -94,6 +123,7 @@
   text-align: left;
   transition: all 0.3s ease 0s;
 }
+
 .content_card li {
   padding: 7px 0 7px 50px;
   position: relative;
@@ -102,6 +132,7 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 svg.svg-inline--fa.fa-paper-plane {
   width: 20px;
   height: 16px;
@@ -122,6 +153,7 @@ svg.svg-inline--fa.fa-paper-plane {
   color: #707070;
   border-color: #707070 !important;
 }
+
 .buy_now {
   background: linear-gradient(to bottom right, #fa6fe6, #ffef65);
   position: relative;
@@ -136,9 +168,11 @@ svg.svg-inline--fa.fa-paper-plane {
   transition: all 0.3s ease 0s;
   z-index: 1;
 }
+
 .buy_now:hover {
   color: #fff;
 }
+
 .buy_now::before {
   content: "";
   height: 92%;
@@ -150,36 +184,46 @@ svg.svg-inline--fa.fa-paper-plane {
   background: #fff;
   z-index: -1;
 }
+
 .buy_now:hover::before {
   background: 0 0;
 }
+
 .table2 .name {
   background: linear-gradient(to bottom right, #44f2b5, #4cbde2);
 }
+
 .table2:hover .price_card {
   background: linear-gradient(to bottom right, #44f2b5, #4cbde2);
 }
+
 .table2.content_card::before {
   color: #4bc7db;
   border-color: #4bc7db;
 }
+
 .table2 .buy_now {
   background: linear-gradient(to bottom right, #44f2b5, #4cbde2);
 }
+
 /* table3 */
 .table3 .name {
   background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
 }
+
 .table3:hover .price_card {
   background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
 }
+
 .table3.content_card::before {
   color: #66fd9c;
   border-color: #66fd9c;
 }
+
 .table3 .buy_now {
   background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
 }
+
 /* profile_menu */
 .profile_menu {
   position: absolute;
@@ -200,10 +244,12 @@ svg.svg-inline--fa.fa-paper-plane {
   visibility: hidden;
   opacity: 0;
 }
+
 .profile_menu.active {
   visibility: visible;
   opacity: 1;
 }
+
 .profile_menu::before {
   content: "";
   width: 0px;
@@ -215,6 +261,7 @@ svg.svg-inline--fa.fa-paper-plane {
   border-style: solid;
   border-color: transparent transparent #fff transparent;
 }
+
 .user_image {
   height: 60px;
   width: 60px;
@@ -227,11 +274,13 @@ svg.svg-inline--fa.fa-paper-plane {
   overflow: hidden;
   background-size: cover;
 }
+
 .profile_menu ul {
   list-style: none;
   padding: 10px 0;
   margin: 10px;
 }
+
 .profile_menu ul li:hover {
   color: #1292ee;
 }
@@ -240,9 +289,11 @@ svg.svg-inline--fa.fa-paper-plane {
   width: 100px !important;
   height: 100px !important;
 }
+
 .footer-logo img {
   width: 100%;
 }
+
 /* ==================profile Caption ==========================*/
 
 /* The side navigation menu */
@@ -263,6 +314,7 @@ svg.svg-inline--fa.fa-paper-plane {
   padding: 16px;
   text-decoration: none;
 }
+
 .sidebar .image_content img {
   margin: 0% 25%;
   background-size: cover;
@@ -273,6 +325,7 @@ svg.svg-inline--fa.fa-paper-plane {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 /* Active/current link */
 .sidebar a.active {
   background-color: #030f27;
@@ -294,7 +347,7 @@ div.content {
   height: 100%;
 }
 
-.servertripucontent{
+.servertripucontent {
   margin-top: 0 !important;
   margin-left: 0 !important;
 }
@@ -306,13 +359,18 @@ div.content-service {
   padding: 1px 16px;
   height: 100%;
 }
+
 div.content-personal {
-  margin-top: -11%;
-  margin-left: 21%;
+  margin-top: 1%;
+  /* margin-left: 21%; */
   margin-bottom: 8%;
   padding: 1px 16px;
   height: 100%;
+  float: left;
+  width: 80%;
+  ;
 }
+
 div.content-tip_details {
   margin-top: -49%;
   margin-left: -3%;
@@ -320,6 +378,7 @@ div.content-tip_details {
   padding: 1px 16px;
   height: 100%;
 }
+
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -327,9 +386,11 @@ div.content-tip_details {
     height: auto;
     position: relative;
   }
+
   .sidebar a {
     float: left;
   }
+
   div.content {
     margin-left: 0;
   }
@@ -342,36 +403,44 @@ div.content-tip_details {
     float: none;
   }
 }
+
 .visibility {
   display: block;
   visibility: visible;
 }
+
 .visibilityBlock {
   display: block;
 }
+
 /*=============== tapsStyle============== */
 /* Style the tab */
 .tab {
   margin-top: 3%;
   overflow: hidden;
 }
+
 .taps {
   float: left;
   width: 100%;
 }
+
 .personal_info {
   font-size: 18px;
   color: #030f27;
   padding: 50px 0;
 }
+
 .card_info {
   background-color: #eee;
   padding: 30px 0;
   border-radius: 16px;
 }
+
 .checked {
   color: orange;
 }
+
 .information h2 {
   font-size: 27px;
   line-height: 1;
@@ -379,6 +448,7 @@ div.content-tip_details {
   margin: 0;
   color: #030f27;
 }
+
 .information h4 {
   font-size: 18px;
   line-height: 0px;
@@ -388,6 +458,7 @@ div.content-tip_details {
   margin-top: 20px;
   color: #000;
 }
+
 .information h5 {
   font-size: 18px;
   line-height: 15px;
@@ -397,6 +468,7 @@ div.content-tip_details {
   margin-top: 15px;
   color: #8c89a2;
 }
+
 p {
   line-height: 24px;
   margin-bottom: 24px;
@@ -409,6 +481,7 @@ p {
   margin: 0;
   color: #030f27;
 }
+
 .information h4 {
   font-size: 18px;
   line-height: 0px;
@@ -418,6 +491,7 @@ p {
   margin-top: 20px;
   color: #000;
 }
+
 .information h5 {
   font-size: 18px;
   line-height: 15px;
@@ -427,10 +501,12 @@ p {
   margin-top: 15px;
   color: #8c89a2;
 }
+
 p {
   line-height: 24px;
   margin-bottom: 24px;
 }
+
 .site-button {
   margin-top: 15px;
   background-color: #1292ee !important;
@@ -446,6 +522,7 @@ p {
   border-color: transparent;
   line-height: 1.42857;
 }
+
 /* required_documents */
 .required_documents .main_text {
   text-align: center;
@@ -454,19 +531,23 @@ p {
   line-height: 50px;
   cursor: pointer;
 }
+
 .person-documents {
   margin: 10px;
   padding: 50px 0;
 }
+
 .content-car-info {
   font-size: 18px;
   color: #030f27;
   margin: 10px;
   padding: 50px 0;
 }
+
 .person-documents .id-card {
   background-color: #eee;
 }
+
 .CaptionLicence-documents input[type="file"],
 .carLicence-documents input[type="file"],
 .caption-data input[type="file"],
@@ -474,6 +555,7 @@ p {
 .person-documents input[type="file"] {
   display: none;
 }
+
 .CaptionLicence-documents label,
 .carLicence-documents label,
 .caption-data label,
@@ -495,6 +577,7 @@ p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 .CaptionLicence-documents img,
 .carLicence-documents img,
 .caption-data img,
@@ -515,6 +598,7 @@ p {
   text-align: center;
   color: #fff;
 }
+
 .select-style {
   display: block;
   padding: 0.375rem 0.75rem;
@@ -533,6 +617,7 @@ p {
   height: 40px;
   width: 60%;
 }
+
 .car-images {
   margin: 5% 0;
 }
@@ -543,14 +628,17 @@ p {
   margin-bottom: 20px;
   background-size: cover;
 }
+
 .car-images h2 {
   font-size: 19px;
   font-weight: 600;
 }
+
 .car-images label {
   padding: 11px;
   margin: auto;
 }
+
 .car-images svg {
   margin: auto;
 }
@@ -561,11 +649,13 @@ p {
   padding: 10px;
   width: 100%;
 }
+
 .moreDetails:hover,
 .save:hover {
   color: #fff;
   background-color: #030f27 !important;
 }
+
 /* =============Trip Details style============== */
 .trip-table-details .table thead {
   background-color: #030f27;
@@ -574,9 +664,11 @@ p {
   font-size: 18px;
   font-weight: bold;
 }
+
 .trip-table-details .table tr:hover td {
   cursor: pointer;
 }
+
 .moreDetails {
   margin-top: 0;
   font-weight: bold;
@@ -586,6 +678,7 @@ p {
   width: 77%;
   text-decoration: none;
 }
+
 /* mapStyle */
 #map {
   height: 270px;
@@ -595,19 +688,24 @@ p {
   overflow: hidden;
   right: 20%;
 }
+
 .content-map {
   position: relative;
 }
+
 .data strong {
   color: #030f27;
 }
+
 .data span {
   color: #1292ee;
 }
+
 .data {
   padding: 10px 25px;
   position: relative;
 }
+
 .data::before {
   content: "";
   height: 10px;
@@ -627,6 +725,7 @@ p {
 .dont_show {
   display: none;
 }
+
 /* =================Authentication Style =======================*/
 .main_text {
   text-align: center;
@@ -634,6 +733,7 @@ p {
   font-weight: bold;
   line-height: 50px;
 }
+
 /* Style the buttons that are used to open the tab content */
 .tab button {
   color: white;
@@ -650,7 +750,7 @@ p {
 /* Change background color of buttons on hover */
 .tab button.active,
 .tab button:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #030f27;
 }
 
@@ -671,19 +771,124 @@ p {
   width: 25%;
 }
 
+@media screen and (max-width: 1189px) and (min-width: 929px) {
+  .designcolortab {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 929px) and (min-width: 800px) {
+  .designcolortab {
+    width: 35%;
+    padding: 14px 9px !important;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 699px) {
+  .designcolortab {
+    width: 35%;
+    padding: 14px 0 !important;
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 699px) and (min-width: 513px) {
+  div.content-personal {
+    float: inline-start;
+    width: 100%;
+  }
+
+  .designcolortab {
+    width: 35%;
+    padding: 14px 0 !important;
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 513px) and (min-width: 400px) {
+  div.content-personal {
+    float: inline-start;
+    width: 100%;
+  }
+
+  .designcolortab {
+    width: 35%;
+    padding: 14px 0 !important;
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 280px) {
+  div.content-personal {
+    float: inline-start;
+    width: 100%;
+  }
+
+  .willwidth {
+    display: block !important;
+  }
+
+  .designcolortab {
+    width: 100%;
+    padding: 14px 0 !important;
+    font-size: 18px !important;
+    float: none !important;
+  }
+
+  .widthRow {
+    width: 100%;
+  }
+
+  .form-control-caption,
+  .js-example-responsive,
+  .select-style {
+    width: 100% !important;
+  }
+
+  .car-images p,
+  .car-information p {
+    letter-spacing: 1px;
+    font-size: 20px;
+    word-spacing: 4px;
+  }
+
+  .id-card h2 {
+    font-size: 19px;
+  }
+
+  .CaptionLicence-documents img,
+  .carLicence-documents img,
+  .caption-data img,
+  .person-documents img {
+    max-width: 100%;
+  }
+
+  .CaptionLicence-documents label,
+  .carLicence-documents label,
+  .caption-data label,
+  .car-images label,
+  .person-documents label {
+    width: 100% !important;
+  }
+}
+
 .tablink:hover {
   background-color: #777;
 }
+
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border-top: none;
+  background-color: #eee;
 }
+
 .visibility {
   display: block;
   visibility: visible;
 }
+
 .site-button {
   margin-top: 15px;
   background-color: #1292ee;
@@ -699,6 +904,7 @@ p {
   border-color: transparent;
   line-height: 1.42857;
 }
+
 .btn {
   width: 22%;
   color: #000;
@@ -713,10 +919,12 @@ p {
   border-color: transparent;
   line-height: 1.42857;
 }
+
 .login_area p {
   color: #2c4a6b;
   text-align: center;
 }
+
 .form-control {
   margin: auto;
   width: 60% !important;
@@ -730,10 +938,11 @@ p {
   line-height: 20px;
   padding: 9px 12px !important;
 }
+
 .form-control-caption {
   display: block;
   margin-top: 2px;
-  width: 60% !important;
+  width: 60%;
   background: #fff !important;
   height: 44px;
   border: none;
@@ -743,36 +952,50 @@ p {
   line-height: 20px;
   padding: 9px 12px !important;
 }
+
 .color_reset {
   color: #f00 !important;
 }
+
 .check_box_group .reset {
   position: relative;
   left: 13%;
   top: 7px;
 }
+
 .check_box_area {
   display: flex;
   justify-content: space-around;
 }
+
 .check_box_group .check_area {
   margin-top: 15px;
   position: absolute;
   left: 33%;
 }
+
 #Client .active {
   visibility: visible;
   opacity: 1;
 }
+
 .selected {
-  color: #00e5ffe6 !important;
+  color: white !important;
 }
+
 .regisrt_area h2 {
   cursor: pointer;
   display: flex;
   justify-content: center;
 }
-.main_text span{
+
+.regisrt_area p {
+  color: #fff;
+  font-size: 19px;
+  margin: 17px 0;
+}
+
+.main_text span {
   width: 20%;
   height: 50px;
   display: flex;
@@ -780,20 +1003,24 @@ p {
   justify-content: center;
   margin-right: 2%;
   background-color: cornflowerblue;
-  border-radius: 2.5rem;
+  border-radius: 10px;
   color: white;
 }
+
 .regisrt_area .Caption {
   display: none;
 }
+
 .remmper {
   display: flex;
   align-items: center;
 }
+
 .remmper label {
   color: white;
   font-size: 20px;
 }
+
 .marginB-20 {
   margin-bottom: 20px;
 }
@@ -803,6 +1030,7 @@ p {
   border: none;
   margin-left: 244px;
 }
+
 .check_box_area input[type="checkbox"] {
   margin: 0px 4px;
   align-items: center;
@@ -810,9 +1038,11 @@ p {
   height: 20px;
   width: 20px;
 }
+
 .check_area {
   height: 40px;
 }
+
 #email-error,
 label.error,
 .error {
@@ -822,9 +1052,11 @@ label.error,
   color: #f00;
   font-size: 14px;
 }
+
 .desc .content p {
   margin: 10px 0;
 }
+
 .work-main-info .content-work p {
   margin-bottom: 20px;
 }
